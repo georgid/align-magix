@@ -14,5 +14,21 @@ demo_list = [
 		"timestamps_filename": "TakeThat.BackForGood.txt"
 
 	}
+	,
+	{
+		"artist": "Kelis",
+		"title": "Trick Me",
+		"music_filename": "trick_me.wav", 
+		"timestamps_filename": "trick_me.txt"
+
+	}
+	,
+	{
+		"artist": "Coldplay",
+		"title": "Viva La Vida",
+		"music_filename": "viva_la_vida.wav", 
+		"timestamps_filename": "viva_la_vida.txt"
+
+	}
 
 ];
