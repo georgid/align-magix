@@ -22,13 +22,13 @@ demo_list = [
 		"timestamps_filename": "trick_me.txt"
 
 	}
-	,
-	{
-		"artist": "Coldplay",
-		"title": "Viva La Vida",
-		"music_filename": "viva_la_vida.wav", 
-		"timestamps_filename": "viva_la_vida.txt"
+	// ,
+	// {
+	// 	"artist": "Coldplay",
+	// 	"title": "Viva La Vida",
+	// 	"music_filename": "viva_la_vida.wav", 
+	// 	"timestamps_filename": "viva_la_vida.txt"
 
-	}
+	// }
 
 ];
