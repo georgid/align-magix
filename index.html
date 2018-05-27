@@ -1,7 +1,50 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="./js/nexusUI.js"></script>
+
+        <link rel="stylesheet" href="./css/main.css"/>
+        <title>Demo of Align Magix</title>
+    </head>
+    <body>
+        <div class="">
+           This page demonstrates popular songs aligned with Align Magix™. 
+            <br>Align Magix is a piece of software based on latest Artificial Intelligence algorithms that accepts as inputs the voice and the text and extracts the time information for each word or each line. 
+           <br> The accuracy (alignment error) of aligned words/lines varies according to the genre. Align Magix is the flagship product of <a href="http://www.voicemagix.com/solutions.html">Voice Magix</a>
+        </div>
+        <div class="width_50">
+            <form id="upload" action="upload.php" method="POST" enctype="multipart/form-data">
+
+
+            <fieldset>
+            <div id="select_demo">
+                Select a demo song from the list: 
+                <select name="demo_options" id="demo_options">
+                    <option selected id = "default_msg_option">Loading demo...</option>
+                </select>
+            </div>
+
+            </fieldset>
+
+            
+            <fieldset id="playwave" width = "100%">
+                
+            <legend >Play the audio</legend>
+                <button onclick="playSound()"  id ="startbutton">Start</button>
+                <button onclick="stopSound()"  id ="stopbutton">Stop</button>
+                <input type="radio" name="sync_level" value="line" checked>line</td>
+                <input type="radio" name="sync_level" value="word">word</td>
+            </fieldset>
+
+            </form>
+
+
+        </div> 
+        <div class="width_50"> 
+            <div id="lyric_display">
+            </div>
+        </div> 
+    </body>
+    <script src="./lyric_sync_data/demo/demo_list.js"></script>
+    <script src="./js/lyric_display.js"></script>
 </html>
