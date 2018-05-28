@@ -22,6 +22,15 @@ demo_list = [
 		"timestamps_filename": "trick_me.txt"
 
 	}
+	,
+	{
+		"artist": "Nickelback",
+		"title": "This Afternoon",
+		"music_filename": "this_afternoon.wav", 
+		"timestamps_filename": "this_afternoon.txt"
+
+	}
+
 	// ,
 	// {
 	// 	"artist": "Coldplay",
