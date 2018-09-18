@@ -24,7 +24,21 @@
                 </select>
             </div>
 
+            <div>
+                <label for="fileselect">Or upload your example:</label>
+                <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+                <div id="filedrag">or drop files here</div>
+            </div>
+            <div id="submitbutton">
+                <button type="submit">Upload Files</button>
+            </div>
+
             </fieldset>
+
+
+
+
+
 
             
             <fieldset id="playwave" width = "100%">
@@ -38,6 +52,9 @@
 
             </form>
 
+            <div id="messages">
+            <p>Status messages:</p>
+            </div>
 
         </div> 
         <div class="width_50"> 
